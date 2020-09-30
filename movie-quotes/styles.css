@@ -1,0 +1,93 @@
+h1 {
+    text-align: center;
+    padding-top: 20px; padding-bottom: 20px;
+    background-color: olive;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.0;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    background-color: wheat;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    padding-top: 6px; padding-bottom: 6px;
+}
+
+h3 {
+    text-align: left;
+    text-indent: 24px;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    line-height: 15px;
+    margin-top: 10px; margin-bottom: 5px;
+}
+
+h4 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px; margin-bottom: 1px
+}
+
+p {
+    text-align: left;
+    text-indent: 20px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.0;
+    margin-top: 1px; margin-bottom: 10px
+}
+
+blockquote {
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 350px; margin-right: 350px;
+    margin-top: 1px; margin-bottom: 10px;
+}
+
+.peter {
+    color: royalblue;
+}
+
+.dana {
+    color: rgb(153, 2, 85);
+}
+
+.mayor {
+    color: rgb(187, 101, 3);
+}
+
+.ray {
+    color: rgb(4, 163, 97);
+}
+
+.egon {
+    color: purple;
+}
+
+.winston {
+    color: rgb(211, 15, 1);
+}
+
+.parenthetical {
+    text-align: center;
+    margin-bottom: 1px;
+    color: rgb(70, 70, 70);
+}
+
+.action {
+    text-align: left;
+    margin-top: 20px; margin-bottom: 20px;
+    color: rgb(70, 70, 70);
+}
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+}
