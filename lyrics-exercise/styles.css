@@ -1,32 +1,22 @@
-body {
-    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
-}
-
-.main {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.left {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0rem;
-    align-self: flex-start;
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
     text-align: center;
-    padding-bottom: 20px;
+    padding-top: 20px; padding-bottom: 20px;
     font-size: 60px;
     font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.0;
     margin-bottom: 8px;
-    margin-top: 20%;
     color: rgb(23, 65, 107);
 }
 
 h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     margin-top: 5px;
     font-size: 30px;
@@ -34,6 +24,7 @@ h2 {
 }
 
 h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     color: rgb(23, 65, 107);
     margin-top: 20px; margin-bottom: 1px;
@@ -43,13 +34,12 @@ h3 {
     color: rgb(40, 104, 94);
     text-align: center;
     font-style: italic;
-    margin-bottom: 30px;
 }
 
-.lyrics {
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    margin-top: 3%;
+    margin-top: 3px;
     line-height: 1.5;
     color: rgb(40, 104, 94);
-    padding-left: 15%;
 }
