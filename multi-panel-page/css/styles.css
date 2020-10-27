@@ -1,0 +1,126 @@
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+header {
+    background-image: url(https://cdn2.atlantamagazine.com/wp-content/uploads/sites/4/2019/10/pinksky_mwells.jpg);
+    text-align: center;
+    padding-top: 100px;
+    height: 380px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.column-container {
+    width: 960px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 80px;
+    margin-bottom: 0px;
+    margin-left: 0.5px;
+    margin-top: 52px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-left: 0px;
+    margin-top: -3px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 34px;
+}
+
+.section1 {
+    padding-top: 2px;
+    padding-bottom: 30px;
+    color: aliceblue;
+    background-color: rgb(44, 36, 73);
+    height: 681px;
+}
+
+p {
+    font-size: 17.8px;
+    line-height: 1.45;
+}
+
+.top {
+    width: 400px; 
+    height: 300px;
+    object-fit: cover;
+    float: right;
+    margin-left: 40px; 
+    margin-bottom: 40px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+}
+
+.grid img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 24px;
+}
+
+.grid li {
+    display:flex;
+    flex-direction: left;
+}
+
+li div {
+    margin-left: 12px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-top: -1px;
+    margin-bottom: 2px;
+}
+
+.section2 p {
+    margin-top: 8px;
+    width: 240px;
+}
+
+.section2 {
+    background-color: rgb(175, 148, 204);
+    padding-top: 2px;
+    height: 686px;
+}
+
+.section3 p {
+    font-size: 25px;
+    text-align: center;
+    padding: 0 120px 0 120px;
+    width: 720px;
+    margin-left: 0px;
+    margin-top: -1px;
+    letter-spacing: 0.01em;
+}
+
+.section3 {
+    height: 405px;
+    padding-top: 2px;
+    background-color: rgb(44, 36, 73);
+    color: aliceblue;
+}
+
+footer {
+    background-color: rgb(175, 148, 204);
+    height: 90px;
+    padding-top: 1px;
+}
+
+footer p {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
