@@ -171,22 +171,6 @@ a#btn_cocacola:hover {
     box-shadow: 0 0 8px #571010;
 }
 
-a#btn_lyft img{
-    width: 100px;
-    margin-top: 100px;
-}
-
-a#btn_lyft:hover img{
-    width: 120px;
-    margin-top: 100px;
-    filter: drop-shadow(1px 2px rgb(34, 34, 34));
-}
-
-a#btn_lyft:active img{
-    width: 120px;
-    margin-top: 100px;
-}
-
 a#btn_apple {
     display: block;
     width: 100px;
@@ -200,7 +184,7 @@ a#btn_apple {
     color: rgb(214, 214, 214);
     text-align: center;
     font-size: 60px;
-    transition: all .2s;
+    transition: all .3s;
 }
 
 a#btn_apple i {
@@ -225,7 +209,7 @@ a#btn_michaelkors {
     background-color: white;
     box-sizing: border-box;
     padding: 10px;
-    transition: all .2s;
+    transition: all .3s;
 }
 
 a#btn_michaelkors img {
@@ -237,42 +221,63 @@ a#btn_michaelkors:hover {
     filter: invert(1);
 }
 
-a#btn_samsung {
-    display: block;
-    width: 180px;
-    height: 80px;
-    box-sizing: border-box;
-    border-radius: 75px;
-    margin: auto;
-    margin-top: 90px;
-    transition: all .2s;
-    border: 2px solid #11139c;
+a#btn_lyft img{
+    width: 100px;
+    margin-top: 100px;
+}
+
+a#btn_lyft:hover img{
+    width: 120px;
+    margin-top: 100px;
+    filter: drop-shadow(1px 2px rgb(34, 34, 34));
+}
+
+a#btn_lyft:active img{
+    width: 120px;
+    margin-top: 100px;
+    filter: grayscale(100) drop-shadow(1px 2px rgb(34, 34, 34));
 }
 
 a#btn_samsung img{
-    width: 120px;
-    position: relative;
-    top: 10;
+    width: 170px;
+    margin-top: 100px;
 }
 
-a#btn_samsung:hover {
-    box-shadow: 0 0 8px #111057;
+a#btn_samsung:hover img{
+    width: 190px;
 }
 
+a#btn_samsung:active img{
+    width: 190px;
+    filter: drop-shadow(1px 2px 3px black);
+}
 
 a#btn_bissingers img {
     width: 180px;
     margin-top: 90px;
 }
 
-a#btn_instagram .fa-instagram{
+a#btn_bissingers:hover img {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    margin-top: 80px;
+}
+
+a#btn_bissingers:active img{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    margin-top: 80px;
+    box-shadow: 0 0 8px #a1a1a1;
+}
+
+a#btn_instagram i{
     font-size:90px;
     margin-top: 80px;
     color: black;
     transition: all .2s; 
 }
 
-a#btn_instagram:hover .fa-instagram{
+a#btn_instagram:hover i{
     font-size: 100px; 
     background: -webkit-gradient(linear, left bottom, left top, from(rgb(255, 32, 81)), to(#6107b6));
     -webkit-background-clip: text;
@@ -281,7 +286,20 @@ a#btn_instagram:hover .fa-instagram{
 
 a#btn_tesla img {
     width: 180px;
-    margin-top: 70px;
+    margin-top: 40px;
+    filter: grayscale(100);
+}
+
+a#btn_tesla:hover img {
+    width: 200px;
+    margin-top: 40px;
+    filter: none;
+}
+
+a#btn_tesla:active img {
+    width: 200px;
+    margin-top: 40px;
+    filter: drop-shadow(1px 1px black);
 }
 
 a#btn_moo img{
@@ -291,14 +309,50 @@ a#btn_moo img{
 
 a#btn_pottermore img{
     width: 150px;
-    margin-top: 80px;
+    margin-top: 70px;
 }
 
-a#btn_fitbit img{
-    width: 150px;
-    margin-top: 80px;
-    background-color: teal;
-    padding: 10px 40px 10px 40px;
+a#btn_pottermore:hover img{
+    width: 180px;
+    margin-top: 60px;
+}
+
+a#btn_fitbit {
+    display: inline-block;
+    height: 65px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: #2cb4bb;
+    text-decoration: none;
+}
+
+a#btn_fitbit .icon {
+    width: 55px;
+    position: relative;
+    right: 25;
+    bottom: 4;
+    transition: right 0.5s;
+}
+
+a#btn_fitbit .logo {
+    width: 100px;
+    position: relative;
+    filter: invert(1);
+    bottom: 12;
+    right: 30;
+}
+
+a#btn_fitbit:hover .icon {
+    width: 55px;
+    position: relative;
+    bottom: 4;
+    right: -130;
+}
+
+a#btn_fitbit:active {
+    box-shadow: 0 0 8px rgb(45, 50, 61);
 }
 
 a#btn_mollyjogger img{
@@ -307,10 +361,24 @@ a#btn_mollyjogger img{
     margin-left: 9px;
 }
 
+a#btn_mollyjogger:hover img{
+    width: 550px;
+    margin-top: 90px;
+    margin-left: 1px;
+}
+
 a#btn_newyorker img{
     width: 150px;
     margin-top: 80px;
     background-color: black;
+    padding: 40px 40px 40px 40px;
+}
+
+a#btn_newyorker:hover img{
+    width: 150px;
+    margin-top: 80px;
+    filter: invert(1);
+    border: 2px, solid, black;
     padding: 40px 40px 40px 40px;
 }
 
